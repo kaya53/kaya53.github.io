@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: LINESeedKR-Bd, sans-serif;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-family: KBO-Dia-Gothic_bold, sans-serif;
+}
+
+.App-bg {
+  /* background img에만 opacity를 적용하기 위한 코드*/
+  &::before {  
+    content: "";
+    background-image: url('https://img.freepik.com/free-photo/colleagues-giving-fist-bump_53876-64857.jpg?w=740&t=st=1689844803~exp=1689845403~hmac=b24f5f37b03f8c997dbaefc2a59d5335bd9883a044f3db4a1c6f687170f947e7');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+
+.copyright {
+  font-size: 8px;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.w-60px {
+  width: 60px;
+}
+
+.intro-text {
+  position: relative;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
