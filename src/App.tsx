@@ -1,12 +1,23 @@
 import './CSS/App.css';
 import Main from './Pages/Main'
+import SkillSet from './Pages/SkillSet';
+import Project from './Pages/Project';
+import Other from './Pages/Other';
 import Footer from './Components/Footer';
-import Arrow from './Components/Arrow';
 
 function App() {
   return (
     <div className="h-100 w-100">
       <Main />
+      <div id="skillSet" className='pb-5'>
+        <SkillSet />
+      </div>
+      <div id="pjt" className='pb-5'>
+        <Project />
+      </div>
+      <div id="other" className='pb-5'>
+        <Other />
+      </div>
       {/* 
       - 여기에다가 컴포넌트를 다 쌓는다 
       - 스크롤을 안보이게 한다
@@ -16,7 +27,9 @@ function App() {
       {/* <div id='arrow'>
         <Arrow name='mt-5'/>
       </div> */}
-      <Footer />
+      <div className="mt-5">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -14,6 +14,7 @@ function Footer() {
         <div className="fixed-bottom mx-5 px-0 h-10">
             <div className="row justify-content-between">
                 <p className="fs-8 col-6 mx-0">
+                    이 페이지는 React.js와 Typescript로 개발되었습니다. <br/>
                     <a 
                     href="https://www.freepik.com/free-photo/colleagues-giving-fist-bump_3532664.htm#page=2&query=communication&position=23&from_view=search&track=sph"
                     className='text-decoration-none text-black'

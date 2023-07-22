@@ -43,6 +43,14 @@ html, body, #root {
     left: 0px;
   }
 }
+.bg-blue {
+  border: solid 5px #0064ff;
+  border-radius: 20%;
+}
+
+.text-gray {
+  color: #202632;
+}
 
 .fs-8 {
   font-size: 8px;
@@ -62,8 +70,12 @@ html, body, #root {
 
 .intro-text {
   position: relative;
+  padding-top: 5rem;
 }
 
+.container {
+  max-width: none !important;
+}
 
 .arrow-animation {
   animation: bounce_frames 0.5s;
