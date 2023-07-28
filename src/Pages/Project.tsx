@@ -4,8 +4,8 @@ import pjtData from "../utils/pjtData"
 
 function Project() {
     return (
-        <div className="w-100 mx-3" style={{'marginTop': '10rem'}}>
-            <h2 className="title">Project</h2>
+        <div className="mx-auto col-md-8" style={{'marginTop': '10rem'}}>
+            <h2 className="title text-center mb-5">Project</h2>
             <Carousel pause={'hover'}>
                 {pjtData.map(pjt => (
                     <Carousel.Item>
